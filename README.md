@@ -1,3 +1,3 @@
 Responses
 
-.  [July 7th](https://google.com)
+.  [July 7th](https://caitlin0806.github.io/responses/July7)
