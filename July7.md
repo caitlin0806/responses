@@ -1,1 +1,1 @@
-1) Williamsburg is a great city. 
+1) Williamsburg is a great city. It is a beautiful day.
