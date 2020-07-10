@@ -4,7 +4,8 @@ I.B. Relu only passes values of 0 or greater to the next layer in the network. S
 
 I.C. The loss function measures accuracy of the model during training. So, minimizing the loss function makes the model better. The optimizer is how the model is updated based on the data and loss function.
 
-I.D. 1. 60000 images 28 by 28 pixels
+I.D. 
+1) 60000 images 28 by 28 pixels
 2) 60000
 3) 10000 images 28 by 28 pixels
 4) array output:  [[9.6861429e-11 4.3787887e-07 9.9999952e-01 1.0604523e-09 1.2526731e-16
