@@ -19,9 +19,18 @@ Below I used the edge filter on the original image and then pooled it.
 edge: ![edge](https://user-images.githubusercontent.com/67920437/87501835-15842b00-c62e-11ea-9201-fca3d6000b97.png)
 pooling edge: ![pooling edge](https://user-images.githubusercontent.com/67920437/87501837-161cc180-c62e-11ea-93f3-d9f9832a83bb.png)
 
-The x-axis and y-axis of the pooled image goes up to 250, while the edge image goes to 500 on both images. So, the pooled image is a quarter as big, but the features of the image itself is still clear and remains intact. The pooling that was used was max pooling. It looked at a pixel and its neighbors that are to the right, below, and right-below. It took the largest of them by index 0 since the values are from largest to smallest and loaded it to the new image that we now see. This method is useful becuase it is smaller, so it takes up less space and the image itself is maintainend so you don't lose any important features. 
+The x-axis and y-axis of the pooled image goes up to 250, while the edge image goes to 500 on both images. So, the pooled image is a quarter as big, but the features of the image itself is still clear and remains intact. The pooling that was used was max pooling. It looked at a pixel and its neighbors that are to the right, below, and right-below. It took the largest of them by index 0 since the values are from largest to smallest and loaded it to the new image that we now see. This method is useful because it is smaller, so it takes up less space and the image itself is maintainend so you don't lose any important features. 
 
-C)The lecture for today (Coding with Convolutional Neural Network) compared the application of our previously specified deep neural network with a newly specified convolutional neural network. Instead of using the fashion_MNIST dataset, use the mnist dataset (the hand written letters) to train and compare your DNN and CNN output. Were you able to improve your model by adding the Conv2D and MaxPooling2D layers to your neural network? Plot the convolutions graphically, include them in your response and describe them. Edit the convolutions be changing the 32s to either 16 or 64 and describe what impact this had on accuracy and training time. What happens if you add more convolution layers?
+C)
 
+32: ![32](https://user-images.githubusercontent.com/67920437/87723958-9820fd80-c788-11ea-9fc4-f2f015a33fad.png)
+Adding the Conv2D and Maxpooling2D layers to the neural network did in fact improve the model. The accuracy was 0.9860. The first picture has a straight line that looks like a seven. As it goes on you can see a loop which could possibly by a nine. Then, there is a straight line and finally goes to a few colored boxes.
 
+Below are the images when I changed the 32s to 16 or 64. The accuracy improved when I increased the filter of the layer and the time also increased. The accuracy decreased when I decreased the filter of the layer and so did the time. If more convolution layers are added the accuracy would increase and takes less epochs.  
+32to16: ![32to16](https://user-images.githubusercontent.com/67920437/87722004-5e9ac300-c785-11ea-9eea-3546d696d069.png)
+32to64: ![32to64](https://user-images.githubusercontent.com/67920437/87722014-60fd1d00-c785-11ea-85f1-0e3d84bf2e90.png)
+16: loss: 0.0559 - accuracy: 0.9854
+32:loss: 0.0626 - accuracy: 0.9860
+64: loss: 0.0539 - accuracy: 0.9870
+ 
  
