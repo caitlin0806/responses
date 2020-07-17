@@ -9,6 +9,7 @@ This pairplot can be used to see which variables are correlated more than other 
 
 B2)
 ![plot](https://user-images.githubusercontent.com/67920437/87740160-8141d180-c7af-11ea-8990-71bfa4a7412c.png)
+
 Based off of the tail of the dataframe, the model is overfit. This is because as the epochs increase, the val_loss decreases and then increases on the loss epoch which is a common consequence of overfitting. The model looks like is improving but around the 997th epoch it seems to be too accurate so the callback is happening so that the accuracy can lower. So, the model would work better if we decreased the epochs. 
 
 
