@@ -6,4 +6,4 @@ Responses
 .  [Project 1](https://caitlin0806.github.io/responses/Project1)
 .  [July 14th](https://caitlin0806.github.io/responses/July14)
 .  [July 15th](https://caitlin0806.github.io/responses/July15)
-
+.  [Project 2](https://caitlin0806.github.io/responses/Project2)
