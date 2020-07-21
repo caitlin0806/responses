@@ -9,13 +9,40 @@ Describe and analyze process oriented causes-effect relationships.
 
 
 
-D. Describe your implementation of the cats & dogs exercise. How did you setup the
-data?
-1. Which optimizer have you selected, and how might it compare to other possible
-choices? (have a look at this site - https://towardsdatascience.com/understanding-
-rmsprop-faster-neural-network-learning-62e116fcf29a)
-2. Describe your selected loss function and it’s implementation. How is it effectivelypenalizing bad predictions? 
-(have a look at this site - https:// towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual- explanation-a3ac6025181a)
-3. What is the purpose of the metric= argument in your model.compile() function? (look here - https://keras.io/api/metrics/)
-4. Plot the accuracy and loss results for both the training and test datasets. Include these in your response. Assess the model and describe how good you think it performed.
+1. The optimizer selected was the RMSprop. Rprop and Adagrad are other optimizers. RMSprop is the adaptation of rprop algorithm for mini-batch learning. RMSprop also has similarities with Adagrad. It is viewed as a way to deal with its radically diminshing learning rates. Rprop doesnt really work with large datasets. RMSprop is similar to Adagrad as it still keep the same estimate of squared gradients, but instead of letting that estimate continually accumulate over training, we keep a moving average of it.  
+
+2. Describe your selected loss function and it’s implementation. How is it effectively penalizing bad predictions? 
+The loss function chosen was the binary_crossentropy. We used this loss function because we are training a binary classifier (cat or dog). If the probability associated with the true class is 1.0, we need its loss to be zero. Conversely, if that probability is low, we need its loss to be huge. Taking the negative log of the probability will help penalize bad predictions.  
+
+3.It sets up parameters to judge how well the model is working. It is similar to loss functions, but the results from evaluating a metric aren't used when training the model.  
+
+4. 
+
+![figure 1](https://user-images.githubusercontent.com/67920437/88005422-633ddf00-cad7-11ea-8abe-f119d9a10925.png)
+
+![figure 2](https://user-images.githubusercontent.com/67920437/88005424-646f0c00-cad7-11ea-97a9-c113a7d2f95f.png)
+
+The model is definitely overfit. The val_loss was decreasing from the 12th-14th epoch and then on the last epoch it increased. This is a clear indication that the model is overfit. The accuaracy of the training set was .97 so it learned the training set too well. 
+
 5. Use the model to predict 3 dog images and 3 cat images. Upload you images and the prediction. How did your model perform in practice? Do you have any ideas of how to improve the model’s performance?
+
+![chow chow](https://user-images.githubusercontent.com/67920437/88006327-5cb06700-cad9-11ea-8361-1b51cc8a447e.jpeg)
+predicted correct
+
+![husky](https://user-images.githubusercontent.com/67920437/88006332-62a64800-cad9-11ea-97ae-a35eeed0a0eb.jpeg)
+predicted correct
+
+![pitbull](https://user-images.githubusercontent.com/67920437/88006395-88335180-cad9-11ea-8e0c-530c3599e77a.jpeg)
+predicted correct
+
+![tabby](https://user-images.githubusercontent.com/67920437/88006400-89fd1500-cad9-11ea-8623-f5df8754587f.jpeg)
+predicted correct
+
+![siamese](https://user-images.githubusercontent.com/67920437/88006404-8b2e4200-cad9-11ea-8924-9a17fcba13a8.jpeg)
+predicted correct
+
+![persian](https://user-images.githubusercontent.com/67920437/88006406-8c5f6f00-cad9-11ea-94c8-5f6683f0f417.jpeg)
+predicted correct
+
+Since the model is overfit, I suggest that we reduce the network's capacity by removing layers, apply regularization by adding a cost to the loss function for large weights, and use dropout layers. 
+
