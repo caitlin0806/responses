@@ -7,15 +7,14 @@ Describe and analyze scope, scale and hierarchy of processes and sub-processes.
 Describe and analyze factors that contribute to quantified obstacles.
 Describe and analyze process oriented causes-effect relationships.
 
-A. I plan on creating a neural network to make prediction on criminal behavior based on the history of the arrest bookings. I want to use machine learning learning to help classify criminal behavior. 
+A. I plan on creating a neural network to make prediction on criminal behavior based on the history of the arrest bookings. I want to use machine learning to help classify criminal behavior. 
 
 
 1. The optimizer selected was the RMSprop. Rprop and Adagrad are other optimizers. RMSprop is the adaptation of rprop algorithm for mini-batch learning. RMSprop also has similarities with Adagrad. It is viewed as a way to deal with its radically diminshing learning rates. Rprop doesnt really work with large datasets. RMSprop is similar to Adagrad as it still keep the same estimate of squared gradients, but instead of letting that estimate continually accumulate over training, we keep a moving average of it.  
 
-2. Describe your selected loss function and it’s implementation. How is it effectively penalizing bad predictions? 
-The loss function chosen was the binary_crossentropy. We used this loss function because we are training a binary classifier (cat or dog). If the probability associated with the true class is 1.0, we need its loss to be zero. Conversely, if that probability is low, we need its loss to be huge. Taking the negative log of the probability will help penalize bad predictions.  
+2. The loss function chosen was the binary_crossentropy. We used this loss function because we are training a binary classifier (cat or dog). If the probability associated with the true class is 1.0, we need its loss to be zero. Conversely, if that probability is low, we need its loss to be huge. Taking the negative log of the probability will help penalize bad predictions.  
 
-3. It sets up parameters to judge how well the model is working. It is similar to loss functions, but the results from evaluating a metric aren't used when training the model.  
+3. the metric=argument sets up parameters to judge how well the model is working. It is similar to loss functions, but the results from evaluating a metric aren't used when training the model.  
 
 4. 
 
