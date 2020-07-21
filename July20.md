@@ -7,6 +7,7 @@ Describe and analyze scope, scale and hierarchy of processes and sub-processes.
 Describe and analyze factors that contribute to quantified obstacles.
 Describe and analyze process oriented causes-effect relationships.
 
+A. I plan on creating a neural network to make prediction on criminal behavior based on the history of the arrest bookings. I want to use machine learning learning to help classify criminal behavior. 
 
 
 1. The optimizer selected was the RMSprop. Rprop and Adagrad are other optimizers. RMSprop is the adaptation of rprop algorithm for mini-batch learning. RMSprop also has similarities with Adagrad. It is viewed as a way to deal with its radically diminshing learning rates. Rprop doesnt really work with large datasets. RMSprop is similar to Adagrad as it still keep the same estimate of squared gradients, but instead of letting that estimate continually accumulate over training, we keep a moving average of it.  
