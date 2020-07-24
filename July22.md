@@ -1,13 +1,14 @@
-3. Provide a histogram of the probabilities for the logistic regression as well as your boosted tree model. How do you interpret the two different models? Are their predictions essentially the same or is there some area where they are noticeable different. Plot the probability density function of the resulting probability predictions from the two models and use them to further illustrate your argument. Include the ROC plot and interpret it with regard to the proportion of true to false positive rates, as well as the area under the ROC curve. How does the measure of the AUC reflect upon the predictive power of your model?
-
-A1)One-hot-coded columns is a feature provided by feature columns that let's categorical variables be converted into a form that could be provided (numerical date) to machine learning algorithms to do a better job at predicting. The source values are discrete. 
+A1) One-hot-coded columns is a feature provided by feature columns that let's categorical variables be converted into a form that could be provided (numerical date) to machine learning algorithms to do a better job at predicting. It puts the values into binary form where 0 relates to false and 1 relates to true. The source values are discrete. 
 
 A2) A dense feature inspects the result of a feature column and inspects categorical columns by transforming it to an indicator column first. This can be useful because it is another way to understand the data and give new meaning since certain values can't be interpreted correctly without it. 
 
-A3)
-![Unknown](https://user-images.githubusercontent.com/67920437/88332968-6fa38100-ccfd-11ea-84fc-25a596854a52.png)
+A3) The boosted tree model seems to have performed better since the mortality rate is higher. The probability distributuions for the linear and boosted seems quite similarly located. The ROC curve does show that the model is becoming overfit. It starts to level off at a point which means the true positive rate stays the same as false still continues to rise. The area under the curve seems to be a lot but it could be greater. The greater the area under the curve, the better the model is. 
 
-![Unknown copy](https://user-images.githubusercontent.com/67920437/88333145-b5f8e000-ccfd-11ea-972d-a5be4a80ed12.png)
+
+This is for the logistic: ![Unknown-2](https://user-images.githubusercontent.com/67920437/88429737-26b6ff80-cdc5-11ea-8f29-fbe28ac589b1.png)
+This is for the boosted: ![Unknown-3](https://user-images.githubusercontent.com/67920437/88429740-27e82c80-cdc5-11ea-824f-478058e7937f.png)
+This is the graphs on top of eachother: ![Unknown](https://user-images.githubusercontent.com/67920437/88429735-24ed3c00-cdc5-11ea-9365-37409e99c105.png)
+This is the ROC curve: ![Unknown copy](https://user-images.githubusercontent.com/67920437/88333145-b5f8e000-ccfd-11ea-972d-a5be4a80ed12.png)
 
 B1)
 
