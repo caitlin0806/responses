@@ -6,8 +6,11 @@ A3) The boosted tree model seems to have performed better since the mortality ra
 
 
 This is for the logistic: ![Unknown-2](https://user-images.githubusercontent.com/67920437/88429737-26b6ff80-cdc5-11ea-8f29-fbe28ac589b1.png)
+
 This is for the boosted: ![Unknown-3](https://user-images.githubusercontent.com/67920437/88429740-27e82c80-cdc5-11ea-824f-478058e7937f.png)
+
 This is the graphs on top of eachother: ![Unknown](https://user-images.githubusercontent.com/67920437/88429735-24ed3c00-cdc5-11ea-9365-37409e99c105.png)
+
 This is the ROC curve: ![Unknown copy](https://user-images.githubusercontent.com/67920437/88333145-b5f8e000-ccfd-11ea-972d-a5be4a80ed12.png)
 
 B1)
