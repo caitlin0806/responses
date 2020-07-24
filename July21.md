@@ -11,12 +11,7 @@ A3) The purpose of input functions is to supply data for training, evaluating, a
 
 A4) The input_fn call is wrapped up in a lambda to capture the arguments while providing an input function that takes no arguments. The steps argument tells the method to stop training after a number of training steps. The nested function is lamba and we are applying it to the training set. 
 
-A5) When the classifier = tf.estimator.DNNClassifier, the set accuracy is 0.933 and Prediction is "Setosa" (81.5%), expected "Setosa"
-Prediction is "Versicolor" (54.5%), expected "Versicolor"
-Prediction is "Virginica" (61.5%), expected "Virginica"
-
-when the classifier = tf.estimator.DNNLinearCombinedClassifier 
-when the classifier = tf.estimator.LinearClassifier
+A5) The LinearClassifier had the highest accuracy at 0.967, DNNClassifier was 2nd at 0.933, and DNNLinearCombinedClassifier had the lowest accuracy at 0.7. 
 
 B1)
 
