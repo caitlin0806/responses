@@ -10,5 +10,5 @@ Responses
 .  [July 20th](https://caitlin0806.github.io/responses/July20)
 .  [July 21th](https://caitlin0806.github.io/responses/July21)
 .  [July 22th](https://caitlin0806.github.io/responses/July22)
-.  [July 24th jump start panel](https://caitlin0806.github.io/responses/july24jumpstartpanel)
+.  [extra credit](https://caitlin0806.github.io/responses/july24jumpstartpanel)
 .  [Project 3](https://caitlin0806.github.io/responses/Project3)
