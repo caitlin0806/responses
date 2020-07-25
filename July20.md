@@ -1,13 +1,6 @@
-Responses
-A. Write a Problem Statement. Introduce your topic, quantify its significance, and describe the problem as a process. 
-Identify and quantify significant obstacles to solving your problem. 
-Demonstrate why your topic is important, and why the obstacles associated with your topic are significant both globally as well as within the context of your selected application.
-Describe and analyze the complex nature of the process you are investigating, including the system, the environment, agents and networks. 
-Describe and analyze scope, scale and hierarchy of processes and sub-processes. 
-Describe and analyze factors that contribute to quantified obstacles.
-Describe and analyze process oriented causes-effect relationships.
+A. Crime will always happen everywhere, but we need to look at the trends of the past to guess what the future will hold so that things can be more expected and can prepare to combat it. I plan on creating a neural network to make prediction on criminal behavior based on the history of the arrest bookings. I want to use machine learning to help classify criminal behavior. I also want to explore the idea of using a regression machine learning model to predict levels of crimes by factors like months, neighborhoods, and socioeconomic indicators. I do think that predictions can be unfair towards minorities based off of trends due to correlations, so maybe implementing loss functions can help combat that problem. I think this is an important issue to discuss because this can probably help keep crime low, especially in area where crime is a serious problem. 
 
-A. I plan on creating a neural network to make prediction on criminal behavior based on the history of the arrest bookings. I want to use machine learning to help classify criminal behavior. 
+
 
 
 1. The optimizer selected was the RMSprop. Rprop and Adagrad are other optimizers. RMSprop is the adaptation of rprop algorithm for mini-batch learning. RMSprop also has similarities with Adagrad. It is viewed as a way to deal with its radically diminshing learning rates. Rprop doesnt really work with large datasets. RMSprop is similar to Adagrad as it still keep the same estimate of squared gradients, but instead of letting that estimate continually accumulate over training, we keep a moving average of it.  
