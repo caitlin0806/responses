@@ -1,10 +1,3 @@
-2. Compile and train the model from the tensorflow exercise. Plot the training and validation loss as well as accuracy. Post your plots and describe them.
-D. Text Classification with an RNN
-1. Again compile and train the model from the tensorflow exercise. Plot the training
-and validation loss as well as accuracy. Stack two or more LSTM layers in your
-model. Post your plots and describe them.
-
-
 C1) One-hot encoding is inefficient towards vectorizing a corpus of words because a one-hot encoded vector is sparse so most of the indices are zero, which isn't helpful if we had a lot of words in the vocabulary. 
 
 C2)
@@ -29,4 +22,4 @@ The training accuracy starts off a lot lower than the validation accuracy. The v
 ![loss1](https://user-images.githubusercontent.com/67920437/88741370-78d18b00-d10d-11ea-8e54-2d6f10ffa3ed.png)
 ![accuracy1](https://user-images.githubusercontent.com/67920437/88741368-78d18b00-d10d-11ea-8240-43d40626662f.png)
 
-Stacking two or more LSTM layers to the model didn't really make that much of a difference. As you can see, the graphs are very similar and don't hold a significant difference. 
+Stacking two or more LSTM layers to the model didn't really make that much of a difference. As you can see, the graphs are very similar and don't hold a significant difference. The small difference did techinically make the model worse as the test accuracy declined from 0.8577600121498108 to 0.8512399792671204. So, adding these layers did not positively impact the model. 
