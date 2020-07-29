@@ -13,3 +13,4 @@ Responses
 .  [Extra Credit](https://caitlin0806.github.io/responses/july24jumpstartpanel)
 .  [Project 3](https://caitlin0806.github.io/responses/Project3)
 .  [July 28th](https://caitlin0806.github.io/responses/July28)
+.  [July 29th](https://caitlin0806.github.io/responses/July29)
