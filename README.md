@@ -14,4 +14,4 @@ Responses
 .  [Project 3](https://caitlin0806.github.io/responses/Project3)
 .  [July 28th](https://caitlin0806.github.io/responses/July28)
 .  [July 29th](https://caitlin0806.github.io/responses/July29)
-.  [Project 4](https://caitlin0806.github.io/responses/Project4)
+.  [Final Project](https://caitlin0806.github.io/responses/finalproject)
