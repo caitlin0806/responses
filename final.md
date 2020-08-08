@@ -1,5 +1,5 @@
 **Problem Statement**
-The topic I chose to do was image classification on weather using convolutionl neural networks. My objective is to use CNNs to correctly classify the type of weather an image belongs to. Depending on the complexity of this idea, image classification on weather is important because improving computer vision on things such as bad weather and limited visibility caused by weather like heavy rain, snow, or fog is crucial for things such as driving assistance. To improve machine vision in bad weather situations, a reliable detection system is necessary as a ground base. I want to see how well of a CNN model I can build and how accurately can I correctly classify images. 
+The topic I chose to do was image classification on weather using convolutional neural networks. My objective is to use CNNs to correctly classify the type of weather an image belongs to. Depending on the complexity of this idea, image classification on weather is important because improving computer vision on things such as bad weather and limited visibility caused by weather like heavy rain, snow, or fog is crucial for things such as driving assistance. To improve machine vision in bad weather situations, a reliable detection system is necessary as a ground base. I want to see how well of a CNN model I can build and how accurately can I correctly classify images. 
 
 **Data**
 I used data from a multi-class weather dataset for image classification of still images. The dataset provides a platform for outdoor weather analysis by extracting various features for recognizing diferent weather conditons. It includes 1122 google stock images of different types of weather that falls into 4 categories: cloud (300), rain (212), sunrise (357), and shine (253). 
@@ -37,19 +37,20 @@ Sunrise1: This image most likely belongs to sunrise with a 99.83 percent confide
 Sunrise2: This image most likely belongs to sunrise with a 100.00 percent confidence.
 
 
-As you can see, my model correctly identified the 2 rain images, and sunrise images. The model incorrectly identified both cloud images to be in the shine category and it incorrectly indentified the 2 shine images to be in the sunrise category. 
-
-
-
+As you can see, my model correctly identified the 2 rain images, and sunrise images. The model incorrectly identified both cloud images to be in the shine category and it incorrectly indentified the 2 shine images to be in the sunrise category.
 
 **Conclusion**
-If I had more time and did more trial and error, I am sure I could get better accuracies and less overfitting so that my model can run more efficiently. I do think my model did pretty well, however.
+If I had more time and did more trial and error, I am sure I could get better accuracies and less overfitting so that my model can run more efficiently. I do think my model did pretty well, however. I think I would also try different weather categories like snow. I would also like to increase the number of photos for each category so that it can have a wide variety of range of the different categories. Based of my results, it seems my model was getting the cloud images wrong probably due to the fact that it is a beautiful day and there's light outside, making it think that it shine. And it was probably getting my shine pictures wrong because it saw the sun and classified it as sunrise. So picking categories that are more different would be another thing I would like to do. 
 
 
 **References**
 Ajayi, Gbeminiyi. “Multi-Class Weather Dataset for Image Classification.” Mendeley Data, Mendeley Data, 13 Sept. 2018, data.mendeley.com/datasets/4drtyfjtfy/1.
 Ajayi, Gbeminiyi. “Multi-Class Weather Dataset for Image Classification.” Mendeley Data, Mendeley Data, 13 Sept. 2018, dx.doi.org/10.17632/4drtyfjtfy.1.
 “Image Classification  :   TensorFlow Core.” TensorFlow, www.tensorflow.org/tutorials/images/classification.
+
+**Related Works**
+https://www.mrt.kit.edu/z/publ/download/Roser_al2008iv.pdf
+https://www.researchgate.net/publication/331353178_Weather_Classification_using_Convolutional_Neural_Networks
 
 
 
