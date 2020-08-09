@@ -1,4 +1,4 @@
-**Powerpoint Presentation** [Weather Image Classification.pptx](https://github.com/caitlin0806/responses/files/5046169/Weather.Image.Classification.pptx)
+**Powerpoint Presentation** [Weather Image Classification.pptx](https://github.com/caitlin0806/responses/files/5046672/Weather.Image.Classification.pptx)
 
 **Problem Statement**
 The topic I chose to do was image classification on weather using convolutional neural networks. My objective is to use CNNs to correctly classify the type of weather an image belongs to. Depending on the complexity of this idea, image classification on weather is important because improving computer vision on things such as bad weather and limited visibility caused by weather like heavy rain, snow, or fog is crucial for things such as driving assistance. To improve machine vision in bad weather situations, a reliable detection system is necessary as a ground base. I want to see how well of a CNN model I can build and how accurately can I correctly classify images. 
